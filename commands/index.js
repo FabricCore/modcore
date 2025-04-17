@@ -5,7 +5,7 @@ Command.register({
     args: {
         code: {
             type: StringArgumentType.greedyString(),
-            execute: "eval.js",
+            execute: "smart.js",
         },
     },
 
@@ -26,17 +26,16 @@ Command.register({
                 },
             },
         },
-    },
-});
-
-Command.register({
-    package: "modules/core/commands",
-    name: "curl",
-
-    args: {
-        url: {
-            type: StringArgumentType.greedyString(),
-            execute: "curl.js",
+        web: {
+            args: {
+                url: {
+                    type: StringArgumentType.greedyString(),
+                    execute: "web.js",
+                },
+            },
+        },
+        reload: {
+            execute: "reload.js",
         },
     },
 });
