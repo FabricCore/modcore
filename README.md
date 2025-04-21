@@ -36,7 +36,7 @@ The folder should look like this
 
 Evaluate JS code and displays evaluation result.
 
-```
+```js
 /js eval 1+1
 [CONSOLE] 2
 ```
@@ -47,7 +47,7 @@ Loads script at path.
 
 > Path is the full path after _.minecarft/config/jscore/_, the following example loads _.minecarft/config/jscore/init.js_.
 
-```
+```js
 /js load init.js
 [CONSOLE] Script loaded
 ```
@@ -69,7 +69,7 @@ Request content at URL, and prints out response as text.
 
 Same as ***/js load init.js***.
 
-```
+```js
 /js reload
 [CONSOLE] Script loaded
 ```
