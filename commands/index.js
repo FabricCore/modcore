@@ -30,7 +30,17 @@ Command.register({
             args: {
                 url: {
                     type: StringArgumentType.greedyString(),
-                    execute: "web.js",
+                    execute: "webQuiet.js",
+                },
+            },
+            subcommands: {
+                verbose: {
+                    args: {
+                        url: {
+                            type: StringArgumentType.greedyString(),
+                            execute: "web.js",
+                        },
+                    },
                 },
             },
         },
