@@ -159,12 +159,12 @@ Downloads file to path, calls ***onRecv*** once complete.
 
 Blocking variant of ***modcore.net.getDownload***.
 
-#### modcore.net.getDownload(url: String, onRecv: F, path: String)
+#### modcore.net.getDownloadUnzip(url: String, onRecv: F, path: String)
 **where F: Fn()**
 
 Download zip file and unzips to target directory.
 
-#### modcore.net.getDownloadBlocking(url: String, path: String)
+#### modcore.net.getDownloadUnzipBlocking(url: String, path: String)
 
 Blocking variant of ***modcore.net.getDownloadUnzip***.
 
