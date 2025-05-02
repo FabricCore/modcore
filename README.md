@@ -14,6 +14,16 @@ Core modules providing basic functionalities.
 /pully install core
 ```
 
+#### Require as Dependency
+
+```json
+{
+  "dependencies": {
+    "core": "0.1.0"
+  }
+}
+```
+
 #### Manual Install
 
 1. [Download **core**](https://github.com/FabricCore/modcore/archive/refs/heads/master.zip).
