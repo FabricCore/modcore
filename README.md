@@ -14,6 +14,16 @@ Core modules providing basic functionalities.
 /pully install core
 ```
 
+#### Require as Dependency
+
+```json
+{
+  "dependencies": {
+    "core": "0.1.0"
+  }
+}
+```
+
 #### Manual Install
 
 1. [Download **core**](https://github.com/FabricCore/modcore/archive/refs/heads/master.zip).
@@ -159,12 +169,12 @@ Downloads file to path, calls ***onRecv*** once complete.
 
 Blocking variant of ***modcore.net.getDownload***.
 
-#### modcore.net.getDownload(url: String, onRecv: F, path: String)
+#### modcore.net.getDownloadUnzip(url: String, onRecv: F, path: String)
 **where F: Fn()**
 
 Download zip file and unzips to target directory.
 
-#### modcore.net.getDownloadBlocking(url: String, path: String)
+#### modcore.net.getDownloadUnzipBlocking(url: String, path: String)
 
 Blocking variant of ***modcore.net.getDownloadUnzip***.
 

@@ -9,6 +9,6 @@
     "entry": "entry.js",
     "dependencies": {},
 
-    "repository": null,
+    "repository": "https://github.com/FabricCore/modcore",
     "homepage": null
 }
