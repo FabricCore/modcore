@@ -64,16 +64,9 @@ Loads script at path.
 
 #### /js web &lt;url&gt;
 
-Request content at URL, and prints out response as text.
+Run JavaScript content at URL.
 
-```js
-/js web https://example.com
-[CONSOLE] <!doctype html>
-[CONSOLE] <html>
-[CONSOLE] <head>
-[CONSOLE]     <title>Example Domain</title>
-[CONSOLE] ...
-```
+> **/js web verbose &lt;url&gt;** prints out the script content before running. 
 
 #### /js reload
 
